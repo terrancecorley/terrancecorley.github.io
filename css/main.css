@@ -127,6 +127,11 @@ PAGE: ABOUT
 PAGE: CONTACT
 ***********************************/
 
+.availability {
+  color: green;
+  font-weight: bold;
+}
+
 .contact-info {
   margin: 0;
   padding: 0;
