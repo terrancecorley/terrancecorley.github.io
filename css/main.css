@@ -141,15 +141,15 @@ PAGE: CONTACT
 
 .contact-info li a {
   display: block;
-  min-height: 20px;
+  min-height: 16px;
   background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background-size: 16px 16px;
   margin: 0 0 10px;
   padding: 0 0 0 30px;
 }
 
-.contact-info li a.mail {
-  background-image: url('../img/mail.png');
+.contact-info li a.email {
+  background-image: url('../img/email.png');
 }
 
 .contact-info li a.twitter {
@@ -169,8 +169,8 @@ footer {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   margin: 0 5px;
 }
 
