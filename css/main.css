@@ -142,10 +142,6 @@ PAGE: CONTACT
   padding: 0 0 0 30px;
 }
 
-.contact-info li a.phone {
-  background-image: url('../img/phone.png');
-}
-
 .contact-info li a.mail {
   background-image: url('../img/mail.png');
 }
@@ -180,15 +176,15 @@ COLORS
 
 body {
   background-color: #fff;
-  color: #999;
+  color: #5c6063;
 }
 
 a {
-  color: #6ab47b;
+  color: #2fa7bb;
 }
 
 header {
-  background-color: #6ab47b;
+  background-color: #b5bfc1;
 }
 
 h1,
@@ -197,7 +193,7 @@ h2 {
 }
 
 nav {
-  background-color: #599a68;
+  background-color: #596063;
 }
 
 nav a,
@@ -207,7 +203,7 @@ nav a:visited {
 
 nav a.selected,
 nav a:hover {
-  color: #32673f;
+  color: #2fa7bb;
 }
 
 #gallery li {
@@ -216,7 +212,7 @@ nav a:hover {
 }
 
 #gallery li a p {
-  color: #bdc3c7;
+  color: #5c6063;
 }
 
 footer p {
