@@ -1,0 +1,224 @@
+/***********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/***********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px;
+  padding: 5px 0 0;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  margin: 15px 0;
+  line-height: 0.8em;
+}
+
+h2 {
+  margin: -5px 0 0;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+
+
+/***********************************
+NAVIGATION
+***********************************/
+
+nav {
+  margin: 20px 0 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+/***********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  max-width: 45%;
+  margin: 2.5%;
+  float: left;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+}
+
+
+
+/***********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 30px;
+  max-width: 150px;
+  border-radius: 100%;
+}
+
+
+
+/***********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9em;
+}
+
+.contact-info li a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin: 0 0 10px;
+  padding: 0 0 0 30px;
+}
+
+.contact-info li a.phone {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li a.mail {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li a.twitter {
+  background-image: url('../img/twitter.png');
+}
+
+
+/***********************************
+FOOTER
+***********************************/
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 0.75em;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/***********************************
+COLORS
+***********************************/
+
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+a {
+  color: #6ab47b;
+}
+
+header {
+  background-color: #6ab47b;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+nav {
+  background-color: #599a68;
+}
+
+nav a,
+nav a:visited {
+  color: #fff;
+}
+
+nav a.selected,
+nav a:hover {
+  color: #32673f;
+}
+
+#gallery li {
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  color: #bdc3c7;
+}
+
+footer p {
+  color: #ccc;
+}
