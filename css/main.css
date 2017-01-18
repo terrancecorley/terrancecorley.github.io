@@ -10,6 +10,8 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+  /* Creates Sticky Footer */
+  min-height: calc(100vh - 129px);
 }
 
 a {
