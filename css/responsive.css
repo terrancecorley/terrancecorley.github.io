@@ -4,11 +4,11 @@
   PAGE: PORTFOLIO
   ***********************************/
 
-  #gallery li {
+  .gallery li {
     width: 28.3333%;
   }
 
-  #gallery li:nth-child(3n+1) {
+  .gallery li:nth-child(3n+1) {
     clear: left;
   }
 
@@ -29,12 +29,12 @@
   PAGE: CONTACT
   ***********************************/
 
-  #primary {
+  .primary {
     width: 50%;
     float: left;
   }
 
-  #secondary {
+  .secondary {
     width: 40%;
     float: right;
   }
@@ -52,7 +52,7 @@
     margin-bottom: 60px;
   }
 
-  #logo {
+  .logo {
     text-align: left;
     float: left;
     width: 45%;
