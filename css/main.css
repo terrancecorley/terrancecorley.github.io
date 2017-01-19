@@ -26,6 +26,7 @@ h3 {
   margin: 0 0 1em 0;
 }
 
+/* Fixes section issue on abt pg. */
 .clearfix:after {
   content: "";
   display: table;
