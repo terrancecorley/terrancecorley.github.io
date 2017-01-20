@@ -60,11 +60,11 @@
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 0.825em;
+    font-size: 0.825rem;
     margin-bottom: 20px;
   }
 
@@ -72,7 +72,7 @@
     background: none;
     float: right;
     text-align: right;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     width: 45%;
     margin-right: 5%;
   }
