@@ -14,6 +14,12 @@ body {
   min-height: calc(100vh - 114px);
 }
 
+.primary p,
+.secondary p,
+.about-section p {
+  line-height: 1.2;
+}
+
 a {
   text-decoration: none;
 }
@@ -137,7 +143,7 @@ PAGE: CONTACT
 ***********************************/
 
 .availability {
-  color: green;
+  color: #008000;
   font-weight: bold;
 }
 
