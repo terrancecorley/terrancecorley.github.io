@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
 
   /***********************************
   PAGE: PORTFOLIO
@@ -41,7 +41,7 @@
 
 }
 
-@media screen and (min-width: 660px) {
+@media (min-width: 660px) {
 
   /***********************************
   PAGE: PORTFOLIO
