@@ -121,7 +121,7 @@ PAGE: PORTFOLIO
   float: left;
 }
 
-.gallery li a p {
+.gallery li p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
@@ -199,6 +199,7 @@ footer {
 COLORS
 ***********************************/
 
+/* GENERAL */
 body {
   background-color: #fff;
   color: #5c6063;
@@ -208,6 +209,7 @@ a {
   color: #2fa7bb;
 }
 
+/* MAIN HEADER */
 header {
   background-color: #b5bfc1;
 }
@@ -221,25 +223,47 @@ nav {
   background-color: #596063;
 }
 
+nav a {
+  transition: color 0.2s ease-in-out;
+}
+
 nav a,
 nav a:visited {
   color: #fff;
 }
 
 nav a.selected,
-nav a:hover {
+nav a:hover,
+nav a:active {
   color: #2fa7bb;
 }
 
+/* PAGE: PORTFOLIO */
 .gallery li {
   background-color: #f5f5f5;
   color: #bdc3c7;
+}
+
+.gallery li {
+  border-radius: 2px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.gallery li:hover,
+.gallery li:active {
+  box-shadow: 0 0 0.5em 0 #2fa7bb;
+}
+
+.gallery img {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 .gallery li a p {
   color: #5c6063;
 }
 
+/* MAIN FOOTER */
 footer p {
   color: #ccc;
 }
