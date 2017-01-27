@@ -246,11 +246,12 @@ nav a:active {
 
 .gallery li {
   border-radius: 2px;
-  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .gallery li:hover,
 .gallery li:active {
+  background-color: rgba(0, 0, 0, 0.14);
   box-shadow: 0 0 0.5em 0 #2fa7bb;
 }
 
