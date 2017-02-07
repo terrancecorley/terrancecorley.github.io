@@ -85,4 +85,20 @@
     font-size: 0.9em;
   }
 
+
+
+  /***********************************
+  MAIN FOOTER
+  ***********************************/
+
+  footer {
+    margin-top: 10em;
+  }
+
+  .social-icon {
+    width: 26px;
+    height: 26px;
+    margin: 0 10px;
+  }
+
 }
