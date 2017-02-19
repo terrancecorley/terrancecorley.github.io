@@ -121,6 +121,10 @@ PAGE: PORTFOLIO
   float: left;
 }
 
+.gallery li:nth-child(2n+1) {
+  clear: left;
+}
+
 .gallery li p {
   margin: 0;
   padding: 5%;
