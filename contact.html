@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terrance Corley | Web Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:800|Open+Sans:400,400i|Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="css/min.css">
+		<title>Terrance Corley | Web Developer</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito:800|Open+Sans:400,400i|Pacifico" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">	
+		<link rel="stylesheet" href="css/responsive.css">		
   </head>
   <body>
     <!-- Site Heading -->
@@ -33,7 +35,7 @@
       </section>
       <!-- Contact Details -->
       <section class="secondary">
-        <h3>Contact Details</h3>
+        <!-- <h3>Contact Details</h3>
         <ul class="contact-info">
           <li>
             <a class="email" href="mailto:terrancecorley@outlook.com">terrancecorley@outlook.com</a>
@@ -41,7 +43,15 @@
           <li>
             <a class="twitter" href="http://twitter.com/Terrance_Corley" target="_blank">@terrance_corley</a>
           </li>
-        </ul>
+				</ul> -->
+				<form action="https://formspree.io/terrancecorley@outlook.com"
+				method="POST">
+					<h3>Contact Me</h3>
+					<input type="text" name="name" id="name" placeholder="Name">
+					<input type="email" name="_replyto" id="email" placeholder="Email">
+					<textarea name="comment" rows="8" id="comment" placeholder="Leave a message... :)"></textarea>
+					<input type="submit" id="submit-btn" value="Send">
+				</form>
       </section>
     </div>
 
