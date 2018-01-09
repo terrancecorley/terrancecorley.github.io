@@ -35,6 +35,10 @@
 
 @media (min-width: 41.25em) {
 
+	.container {
+		max-width: 75vw;
+	}
+
   /***********************************
   PAGE: PORTFOLIO
   ***********************************/
@@ -72,7 +76,9 @@
   .gallery li p {
     font-size: 0.9em;
 	}
-	
+
+
+
 	/***********************************
   PAGE: CONTACT
   ***********************************/
@@ -102,5 +108,21 @@
     height: 26px;
     margin: 0 10px;
   }
+
+}
+
+@media screen and (min-width: 68em) {
+
+	/***********************************
+  PAGE: ABOUT
+	***********************************/
+
+	.about-section {
+		margin-left: 250px;
+	}
+
+	.about-section p {
+		max-width: 800px;
+	}
 
 }
