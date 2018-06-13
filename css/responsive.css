@@ -47,9 +47,10 @@
   MAIN HEADER
   ***********************************/
   
-  header {
+  .site-header {
     border-bottom: 5px solid #596063;
     margin-bottom: 60px;
+    flex-direction: row;
   }
 
   .logo {
@@ -68,13 +69,15 @@
     margin-bottom: 20px;
   }
 
-  nav {
+  .site-nav {
     background: none;
-    float: right;
-    text-align: right;
     font-size: 1.125rem;
     width: 45%;
     margin-right: 5%;
+  }
+
+  .site-nav ul {
+    justify-content: flex-end;
   }
 
   /***********************************
