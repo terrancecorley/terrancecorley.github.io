@@ -33,16 +33,20 @@
 
 }
 
-@media (min-width: 41.25em) {
-
-	.site-container {
+@media (min-width: 50em) {
+  
+  /***********************************
+  GENERAL
+  ***********************************/
+  
+  .site-container {
 		max-width: 75vw;
-	}
+  }
 
   /***********************************
-  PAGE: PORTFOLIO
+  MAIN HEADER
   ***********************************/
-
+  
   header {
     border-bottom: 5px solid #596063;
     margin-bottom: 60px;
@@ -72,6 +76,10 @@
     width: 45%;
     margin-right: 5%;
   }
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
 
   .gallery li p {
     font-size: 0.9em;
