@@ -68,7 +68,7 @@ HEADING
   margin: 0;
 }
 
-h1 {
+.title {
   font-family: 'Pacifico', cursive;
   font-weight: normal;
   font-size: 1.75rem;
@@ -76,7 +76,7 @@ h1 {
   line-height: 0.8;
 }
 
-h2 {
+.subtitle {
   margin: -5px 0 0;
   font-size: 0.75rem;
   font-weight: normal;
