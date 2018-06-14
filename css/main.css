@@ -37,17 +37,6 @@ img {
   max-width: 100%;
 }
 
-h3 {
-  margin: 0 0 1em 0;
-}
-
-/* Fixes section issue on abt pg. */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 
 /***********************************
@@ -58,7 +47,7 @@ HEADING
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 0 3em;
   padding: 5px 0 0;
 }
 
@@ -119,19 +108,8 @@ PAGE: PORTFOLIO
 }
 
 .gallery li {
-  max-width: 45%;
-  margin: 2.5%;
-  float: left;
-}
-
-.gallery li:nth-child(2n+1) {
-  clear: left;
-}
-
-.gallery li p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
+  max-width: 100%;
+  margin: 0 0 2em;
 }
 
 
