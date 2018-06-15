@@ -44,11 +44,12 @@ HEADING
 ***********************************/
 
 .site-header {
+  font-size: 1.6rem;
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 0 3em;
-  padding: 5px 0 0;
+  padding: 1em 0 0;
 }
 
 .logo {
@@ -60,14 +61,14 @@ HEADING
 .title {
   font-family: 'Pacifico', cursive;
   font-weight: normal;
-  font-size: 1.75rem;
+  font-size: 1.5em;
   margin: 15px 0;
   line-height: 0.8;
 }
 
 .subtitle {
   margin: -5px 0 0;
-  font-size: 0.75rem;
+  font-size: 0.6em;
   font-weight: normal;
 }
 
@@ -78,14 +79,15 @@ NAVIGATION
 ***********************************/
 
 .site-nav {
-  margin: 20px 0 0;
+  font-size: 0.675em;
+  margin: 1.75em 0 0;
   padding: 10px 0;
 }
 
 .site-nav ul {
   display: flex;
   justify-content: center;
-  margin: 0 10px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -93,13 +95,17 @@ NAVIGATION
 .site-nav a {
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
-  padding: 15px 10px;
+  padding: 0.8em 0.6em;
 }
 
 
 /***********************************
 PAGE: PORTFOLIO
 ***********************************/
+
+.gallery-section {
+  font-size: 1rem;
+}
 
 .gallery {
   margin: 0;
@@ -110,6 +116,17 @@ PAGE: PORTFOLIO
 .gallery li {
   max-width: 100%;
   margin: 0 0 2em;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-tech-stack {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -189,15 +206,11 @@ a {
 
 /* MAIN HEADER */
 .site-header {
-  background-color: #b5bfc1;
+  background-color: #5c6063;
 }
 
 .logo {
   color: #fdfdfd;
-}
-
-.site-nav {
-  background-color: #596063;
 }
 
 .site-nav a {
@@ -206,39 +219,28 @@ a {
 
 .site-nav a,
 .site-nav a:visited {
-  color: #fdfdfd;
+  color: #3cd0eb;
 }
 
 .site-nav a.selected,
 .site-nav a:hover,
 .site-nav a:active {
-  color: #2fa7bb;
+  color: #fdfdfd;
 }
 
 /* PAGE: PORTFOLIO */
+
 .gallery li {
   background-color: #f5f5f5;
 }
 
-.gallery li {
-  border-radius: 2px;
-  transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-.gallery li:hover,
-.gallery li:active {
-  background-color: rgba(0, 0, 0, 0.14);
+.project-img {
   box-shadow: 0 0 0.5em 0 #2fa7bb;
+  border-radius: 2px;
 }
 
-.gallery img {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-}
-
-.project-info,
-.project-tech-stack li {
-  color: #5c6063;
+.project-title {
+  color: #2fa7bb;
 }
 
 /* PAGE: CONTACT */
@@ -253,10 +255,4 @@ a {
 	color: #fdfdfd;
 	background-color: #2fa7bb;
 	border-color: 2px solid; 
-}
-
-
-/* MAIN FOOTER */
-footer p {
-  color: #ccc;
 }
