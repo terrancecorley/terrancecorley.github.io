@@ -218,7 +218,6 @@ a {
 /* PAGE: PORTFOLIO */
 .gallery li {
   background-color: #f5f5f5;
-  color: #bdc3c7;
 }
 
 .gallery li {
@@ -237,7 +236,8 @@ a {
   border-top-right-radius: 2px;
 }
 
-.gallery li a p {
+.project-info,
+.project-tech-stack li {
   color: #5c6063;
 }
 
