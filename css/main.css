@@ -240,6 +240,7 @@ a {
 .site-nav a,
 .site-nav a:visited {
   color: #3cd0eb;
+  /* color: #b5bfc1; */
 }
 
 .site-nav a.selected,
