@@ -6,17 +6,12 @@
   }
 
   /***********************************
-  NAVIGATION
+  SITE NAVIGATION
   ***********************************/
 
   .site-nav {
     font-size: 0.8em;
   }
-
-  /***********************************
-  PAGE: PORTFOLIO
-  ***********************************/
-
 
 
   /***********************************
@@ -26,6 +21,43 @@
   .profile-photo {
     float: left;
     margin: 0 5% 80px 0;
+  }
+
+}
+
+@media(min-width: 41em) {
+  /* testing */
+  body {
+    background-color: orange;
+  }
+
+  /***********************************
+  GENERAL
+  ***********************************/
+  
+  .site-container {
+		max-width: 90vw;
+  }
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  .project-info {
+    padding: 1.5em 2em;
+  }
+
+
+  /***********************************
+  MAIN FOOTER
+  ***********************************/
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+  }
+
+  .footer p {
+    font-size: 3em;
   }
 
 }
@@ -43,42 +75,6 @@
   
   .site-container {
 		max-width: 75vw;
-  }
-
-  /***********************************
-  MAIN HEADER
-  ***********************************/
-  
-  .site-header {
-    margin-bottom: 60px;
-    flex-direction: row;
-  }
-
-  .logo {
-    text-align: left;
-    float: left;
-    width: 45%;
-    margin-left: 5%;
-  }
-
-  .title {
-    font-size: 2.5rem;
-  }
-
-  .subtitle {
-    font-size: 0.825rem;
-    margin-bottom: 20px;
- }
-
-  .site-nav {
-    background: none;
-    font-size: 1.125rem;
-    width: 45%;
-    margin-right: 5%;
-  }
-
-  .site-nav ul {
-    justify-content: flex-end;
   }
 
   /***********************************
@@ -115,15 +111,36 @@
     margin-top: 10em;
   }
 
-  .social-icon {
-    width: 26px;
-    height: 26px;
-    margin: 0 10px;
-  }
-
 }
 
-@media screen and (min-width: 68em) {
+@media (min-width: 56em) {
+  /* testing */
+  body {
+    background-color: red;
+  }
+
+  /***********************************
+  MAIN HEADER
+  ***********************************/
+  
+  .site-header {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 5%;
+  }
+
+  .subtitle {
+    margin-bottom: 30px;
+  }
+
+  .site-nav ul {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 68em) {
 
   /* testing */
   body {

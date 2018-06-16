@@ -40,7 +40,7 @@ img {
 
 
 /***********************************
-HEADING
+MAIN HEADING
 ***********************************/
 
 .site-header {
@@ -75,7 +75,7 @@ HEADING
 
 
 /***********************************
-NAVIGATION
+SITE NAVIGATION
 ***********************************/
 
 .site-nav {
@@ -192,7 +192,7 @@ form > * {
 }
 
 /***********************************
-FOOTER
+MAIN FOOTER
 ***********************************/
 
 footer {
@@ -203,8 +203,8 @@ footer {
 }
 
 .social-icon {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   margin: 0 7px;
 }
 
