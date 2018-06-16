@@ -1,12 +1,21 @@
 @media (min-width: 30em) {
 
+  /* testing */
+  body {
+    background-color: green;
+  }
+
+  /***********************************
+  NAVIGATION
+  ***********************************/
+
+  .site-nav {
+    font-size: 0.8em;
+  }
+
   /***********************************
   PAGE: PORTFOLIO
   ***********************************/
-
-  .gallery li p {
-    font-size: 0.825em;
-  }
 
 
 
@@ -22,6 +31,11 @@
 }
 
 @media (min-width: 50em) {
+
+  /* testing */
+  body {
+    background-color: yellow;
+  }
   
   /***********************************
   GENERAL
@@ -110,6 +124,11 @@
 }
 
 @media screen and (min-width: 68em) {
+
+  /* testing */
+  body {
+    background-color: lightblue;
+  }
 
 	/***********************************
   PAGE: ABOUT
