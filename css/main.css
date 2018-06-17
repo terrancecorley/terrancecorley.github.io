@@ -113,7 +113,7 @@ PAGE: PORTFOLIO
   list-style: none;
 }
 
-.gallery > li {
+.project {
   max-width: 100%;
   margin: 0 0 5em;
 }

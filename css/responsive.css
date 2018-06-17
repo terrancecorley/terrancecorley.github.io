@@ -15,6 +15,16 @@
 
 
   /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  .project-info {
+    padding: 1.2em 7%;
+  }
+
+
+
+  /***********************************
   PAGE: ABOUT
   ***********************************/
 
@@ -42,8 +52,9 @@
   /***********************************
   PAGE: PORTFOLIO
   ***********************************/
+  
   .project-info {
-    padding: 1.5em 2em;
+    padding: 1.5em 10%;
   }
 
 
@@ -56,8 +67,8 @@
     margin: 0 8px;
   }
 
-  .footer p {
-    font-size: 3em;
+  .site-footer {
+    font-size: 0.9em;
   }
 
 }
@@ -74,17 +85,18 @@
   ***********************************/
   
   .site-container {
-		max-width: 75vw;
+		max-width: 80vw;
   }
+
+
 
   /***********************************
   PAGE: PORTFOLIO
   ***********************************/
 
-  .gallery li p {
-    font-size: 0.9em;
-	}
-
+  .gallery-section {
+    font-size: 1.1rem;
+  }
 
 
 	/***********************************
@@ -125,7 +137,7 @@
   
   .site-header {
     font-size: 1.8rem;
-    margin-bottom: 60px;
+    margin-bottom: 4em;
     flex-direction: row;
     justify-content: space-between;
     padding: 2em 5%;
@@ -138,6 +150,27 @@
   .site-nav ul {
     justify-content: flex-end;
   }
+
+
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+
+  .gallery-section {
+    font-size: 1.2rem;
+  }
+
+
+  /***********************************
+  MAIN FOOTER
+  ***********************************/
+  .social-icon {
+    width: 34px;
+    height: 34px;
+    margin: 0 10px;
+  }
+
 }
 
 @media (min-width: 68em) {
@@ -146,6 +179,27 @@
   body {
     background-color: lightblue;
   }
+
+
+
+  /***********************************
+  GENERAL
+  ***********************************/
+  .site-container {
+    max-width: 75vw;
+  }
+
+
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+
+  .project-info {
+    padding: 1.5em 12%;
+  }
+
+
 
 	/***********************************
   PAGE: ABOUT
@@ -159,4 +213,50 @@
 		max-width: 800px;
 	}
 
+}
+
+@media (min-width: 97em) {
+  /* testing */
+  body {
+    background-color: lavender;
+  }
+
+  /***********************************
+  GENERAL
+  ***********************************/
+
+  .site-container {
+    max-width: 70vw;
+  }
+
+
+  /***********************************
+  SITE HEADING
+  ***********************************/
+  .site-header {
+    margin-bottom: 5em;
+  }
+
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  .gallery-section {
+    font-size: 1.3rem;
+  }
+
+  .project-info {
+    padding: 1.5em 15%;
+  }
+
+
+  /***********************************
+  MAIN FOOTER
+  ***********************************/
+  .social-icon {
+    width: 36px;
+    height: 36px;
+    margin: 0 12px;
+  }
 }
