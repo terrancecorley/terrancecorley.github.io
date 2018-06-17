@@ -204,16 +204,8 @@
 	/***********************************
   PAGE: ABOUT
 	***********************************/
-
-	/* .about-section {
-		margin-left: 250px;
-	}
-
-	.about-section p {
-		max-width: 800px;
-  } */
   
-  .about-section {
+  .about-content {
     max-width: 800px;
     margin: 0 auto;
   }

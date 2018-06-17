@@ -29,9 +29,9 @@
     </header>
 
     <div class="site-container">
-      <main>
+      <main class="about-content">
         <!-- About Section -->
-        <section class="about-section">
+        <section class="intro-section">
           <img class="profile-photo" src="img/terrance.jpg" alt="Photograph of Terrance Corley.">
           <h3>Intro</h3>
           <!-- show passion, teamwork, personality outside of coding. -->
@@ -44,20 +44,20 @@
         <section class="what-i-do-section">
             <h3>What I Do</h3>
             <dl>
-              <dt>Front-End</dt>
-              <dd>
+              <dt class="skill-heading">Front-End</dt>
+              <dd class="skill-list">
                 JavaScript <span>&sol;</span> ES6 <span>&sol;</span> jQuery <span>&sol;</span> React <span>&sol;</span> Redux <span>&sol;</span> CSS3 <span>&sol;</span> HTML5
               </dd>
-              <dt>Back-End</dt>
-              <dd>
+              <dt class="skill-heading">Back-End</dt>
+              <dd class="skill-list">
                 node.JS <span>&sol;</span> Express <span>&sol;</span> PostgreSQL <span>&sol;</span> MongoDB <span>&sol;</span> API's
               </dd>
-              <dt>Deployment &amp; Testing</dt>
-              <dd>
+              <dt class="skill-heading">Deployment &amp; Testing</dt>
+              <dd class="skill-list">
                 Mocha &amp; Chai <span>&sol;</span> Travis CI <span>&sol;</span> Postman <span>&sol;</span> Insomnia <span>&sol;</span> Heroku <span>&sol;</span> Netlify <span>&sol;</span> Git <span>&sol;</span> GitHub <span>&sol;</span> Axe
               </dd>
-              <dt>Bonus Points</dt>
-              <dd>
+              <dt class="skill-heading">Bonus Points</dt>
+              <dd class="skill-list">
                 Mentoring <span>&sol;</span> Public Speaking <span>&sol;</span> Blogging <span>&sol;</span> Networking <span>&sol;</span> Community Building
               </dd>
             </dl>
@@ -67,47 +67,65 @@
         <section class="testimonial-section">
           <h3>Testimonials</h3>
           <ul class="testimonial-list">
-            <li>
-              <blockquote>
+            <li class="testimonial-item">
+              <div class="icon-container">
+                <img class="quote-icon" src="img/quote-img.svg" alt="Quote icon">
+              </div>
+              <blockquote class="quote">
                 <p>Terrance is an amazing programmer...easy to talk to, thorough and determined to a see a project through to the end.</p>
-                <footer>
-                  <cite>-Dominick McKoy (Educational Technology Specialist @ Philip's Academy Charter School)</cite>
+                <footer class="quote-footer">
+                  <cite class="quote-author">- Dominick McKoy (Educational Technology Specialist @ Philip's Academy Charter School)</cite>
                 </footer>
               </blockquote>
             </li>
-            <li>
-              <blockquote>
+            <li class="testimonial-item">
+              <div class="icon-container">
+                <img class="quote-icon" src="img/quote-img.svg" alt="Quote icon">
+              </div>
+              <blockquote class="quote">
                 <p>I've worked with Terrance on multiple occasions. He is a very talented developer that takes grasp of new concepts quickly, pays close attention to details and delivers high quality projects within limited time constraints.</p>
                 <p>Above all that, he is a professional and very adept in his communications. It was a real pleasure working with Terrance.</p>
-                <footer>
-                  <cite>Marina Valiquette (Full-Stack Web Developer)</cite>
+                <footer class="quote-footer">
+                  <img class="testimonial-photo" src="img/marina.jpg" alt="Photograph of Marina Valiquette">
+                  <cite class="quote-author">- Marina Valiquette (Full-Stack Web Developer)</cite>
                 </footer>
               </blockquote>
             </li>
-            <li>
-              <blockquote>
+            <li class="testimonial-item">
+              <div class="icon-container">
+                <img class="quote-icon" src="img/quote-img.svg" alt="Quote icon">
+              </div>
+              <blockquote class="quote">
                 <p>I had the pleasure of working with Terrance over the course of one year. He helped me instruct and graduate over 300 students, ran a medical laboratory, and held the position I hold now previous to his departure from CalRegional.</p>
                 <p>Terrance is an exceptional worker and a great person to work alongside. He is deeply missed by our company but we know he's off pursuing his passions in web development.</p>
-                <footer>
-                  <cite>Diego Torres (Clinical Coordinator @ CalRegional)</cite>
+                <footer class="quote-footer">
+                  <img class="testimonial-photo" src="img/diego-torres.jpeg" alt="Photograph of Diego Torres">
+                  <cite class="quote-author">- Diego Torres (Clinical Coordinator @ CalRegional)</cite>
                 </footer>
               </blockquote>
             </li>
-            <li>
-              <blockquote>
+            <li class="testimonial-item">
+              <div class="icon-container">
+                <img class="quote-icon" src="img/quote-img.svg" alt="Quote icon">
+              </div>
+              <blockquote class="quote">
                 <p>Terrance Corley is the best mentor and supervisor I've had to date. He always showed real passion and empathy when it came to teaching his students and I tell you this from first-hand experience. His positive energy seemed to always be contagious and really inspired all those he taught or worked alongside.</p>
                 <p>I also had the pleasure of working under Terrance as a Phlebotomist. He has taught me things that will remain with me the rest of my career and I believe he'd be a invaluable asset for any company.</p>
-                <footer>
-                  <cite>Michelle Carl-Agundez (Laboratory Manager @ BioData Laboratories &amp; Radiology)</cite>
+                <footer class="quote-footer">
+                  <cite class="quote-author">- Michelle Carl-Agundez (Laboratory Manager @ BioData Laboratories &amp; Radiology)</cite>
                 </footer>
               </blockquote>
             </li>
-            <li>
-              <blockquote>
+            <li class="testimonial-item">
+              <div class="icon-container">
+                <img class="quote-icon" src="img/quote-img.svg" alt="Quote icon">
+              </div>
+              <blockquote class="quote">
                 <p>Terrance has been an enthusiastic and supportive force in my life since the first day we met. He is always willing to tutor me and explain things, and does it in a way that makes you feel smart and confident.</p>
                 <p>He’s a great person to have in your corner, and gives thoughtful and respectful feedback when asked. I’m looking forward to working with and learning more from him in the future!</p>
-                <footer>
-                  <cite>Rachel Pinto (Full-Stack Web Developer)</cite>
+                <footer class="quote-footer">
+                  <img class="testimonial-photo" src="img/rachel-pinto.jpeg" alt="Photograph of Rachel Pinto">
+                  <cite class="quote-author">- Rachel Pinto (Full-Stack Web Developer)</cite>
                 </footer>
               </blockquote>
             </li>
