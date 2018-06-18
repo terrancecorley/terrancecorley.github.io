@@ -1,9 +1,9 @@
 @media (min-width: 30em) {
 
   /* testing */
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
 
   /***********************************
   SITE NAVIGATION
@@ -41,9 +41,9 @@
 
 @media(min-width: 41em) {
   /* testing */
-  body {
+  /* body {
     background-color: orange;
-  }
+  } */
 
   /***********************************
   GENERAL
@@ -63,8 +63,18 @@
 
 
   /***********************************
+  PAGE: CONTACT
+  ***********************************/
+
+  .contact-info {
+    font-size: 1.2rem;
+  }
+
+
+  /***********************************
   MAIN FOOTER
   ***********************************/
+  
   .social-icon {
     width: 30px;
     height: 30px;
@@ -80,9 +90,9 @@
 @media (min-width: 50em) {
 
   /* testing */
-  body {
+  /* body {
     background-color: yellow;
-  }
+  } */
   
   /***********************************
   GENERAL
@@ -106,6 +116,10 @@
 	/***********************************
   PAGE: CONTACT
   ***********************************/
+
+  .contact-container {
+    max-width: 100vw;
+  }
 
   .primary {
     width: 50%;
@@ -131,9 +145,9 @@
 
 @media (min-width: 56em) {
   /* testing */
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
 
   /***********************************
   MAIN HEADER
@@ -169,6 +183,7 @@
   /***********************************
   PAGE: ABOUT
   ***********************************/
+
   .about-content section {
     font-size: 1.2rem;
   }
@@ -177,6 +192,7 @@
   /***********************************
   MAIN FOOTER
   ***********************************/
+
   .social-icon {
     width: 34px;
     height: 34px;
@@ -188,17 +204,28 @@
 @media (min-width: 68em) {
 
   /* testing */
-  body {
+  /* body {
     background-color: lightblue;
-  }
+  } */
 
 
 
   /***********************************
   GENERAL
   ***********************************/
+
   .site-container {
     max-width: 75vw;
+  }
+
+
+
+  /***********************************
+  SITE HEADING
+  ***********************************/
+  
+  .title {
+    font-size: 1.7em;
   }
 
 
@@ -222,13 +249,26 @@
     margin: 0 auto;
   }
 
+
+  /***********************************
+  PAGE: CONTACT
+  ***********************************/
+
+  .contact-container {
+    max-width: 90vw;
+  }
+
+  .contact-info {
+    font-size: 1.3rem;
+  }
+
 }
 
 @media (min-width: 97em) {
   /* testing */
-  body {
+  /* body {
     background-color: lavender;
-  }
+  } */
 
   /***********************************
   GENERAL
@@ -243,7 +283,7 @@
   SITE HEADING
   ***********************************/
   .site-header {
-    margin-bottom: 5em;
+    margin-bottom: 7em;
   }
 
 
@@ -255,6 +295,10 @@
     font-size: 1.3rem;
   }
 
+  .project {
+    max-width: 85%;
+  }
+
   .project-info {
     padding: 1.5em 15%;
   }
@@ -262,14 +306,30 @@
   /***********************************
   PAGE: ABOUT
   ***********************************/
+
   .about-content section {
     font-size: 1.3rem;
+  }
+
+
+
+  /***********************************
+  PAGE: CONTACT
+  ***********************************/
+
+  .contact-container {
+    max-width: 75vw;
+  }
+
+  .contact-info {
+    font-size: 1.2rem;
   }
 
 
   /***********************************
   MAIN FOOTER
   ***********************************/
+  
   .social-icon {
     width: 36px;
     height: 36px;

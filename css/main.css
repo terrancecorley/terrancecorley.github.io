@@ -33,6 +33,11 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+.submit-btn:hover {
+  cursor: pointer;
+}
+
 img {
   max-width: 100%;
 }
@@ -115,7 +120,7 @@ PAGE: PORTFOLIO
 
 .project {
   max-width: 100%;
-  margin: 0 0 5em;
+  margin: 0 auto 5em;
 }
 
 .project-info {
@@ -228,6 +233,14 @@ PAGE: CONTACT
   font-weight: bold;
 }
 
+.contact-info {
+  font-size: 1rem;
+}
+
+.contact-info .primary {
+  margin-bottom: 4em;
+}
+
 form > * {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -238,11 +251,11 @@ form > * {
 	padding: 0.8em;
 }
 
-#email {
+.email {
 	margin: 1em 0;
 }
 
-#comment {
+.comment {
 	margin-bottom: 0.4em;
 }
 
