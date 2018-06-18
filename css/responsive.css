@@ -188,6 +188,10 @@
     font-size: 1.2rem;
   }
 
+  .testimonial-photo {
+    width: 46px;
+  }
+
 
   /***********************************
   MAIN FOOTER
@@ -247,6 +251,10 @@
   .about-content {
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  .testimonial-photo {
+    width: 60px;
   }
 
 
@@ -329,7 +337,7 @@
   /***********************************
   MAIN FOOTER
   ***********************************/
-  
+
   .social-icon {
     width: 36px;
     height: 36px;
