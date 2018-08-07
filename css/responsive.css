@@ -19,7 +19,8 @@
   ***********************************/
   
   .project-info {
-    padding: 1.2em 7%;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
 
@@ -53,13 +54,6 @@
 		max-width: 90vw;
   }
 
-  /***********************************
-  PAGE: PORTFOLIO
-  ***********************************/
-  
-  .project-info {
-    padding: 1.5em 10%;
-  }
 
 
   /***********************************
@@ -239,7 +233,7 @@
   ***********************************/
 
   .project-info {
-    padding: 1.5em 12%;
+    padding: 1.25em 8%;
   }
 
 
@@ -308,7 +302,7 @@
   }
 
   .project-info {
-    padding: 1.5em 15%;
+    padding: 1.4em 10%;
   }
 
   /***********************************
@@ -327,11 +321,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .testimonial-item {
-    flex-basis: 48%;
+    flex-basis: 49%;
     display: flex;
     flex-direction: column;
   }
