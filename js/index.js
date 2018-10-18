@@ -1,15 +1,20 @@
 const main = (() => {
-  // at 30em width and on scroll
-  // header sticky
-  const header = document.querySelector('#site-header');
-  const body = document.querySelector('body');
+  const nav = document.querySelector('#site-nav');
+  const navTop = nav.offsetTop;
 
-  window.addEventListener('scroll', () => {
-    body.style.paddingTop = '20em';
-    header.style.position = 'fixed';
-    header.style.top = '0';
-    header.style.backgroundColor = 'rgba(92,96,99, 0.9)';
-    header.style.height = '200px';
-    header.style.transition = 'all 0.2s ease-in-out';
-  });
+  function stickyNavigation() {
+    if (window.scrollY >= navTop) {
+      nav.classList.add('sticky');
+    } else {
+      nav.classList.remove('sticky');
+    }
+
+    if (window.scrollY >= navTop && window.screen.width >= 1024) {
+      nav.style.paddingRight = '150px';
+    } else if (window.scrollY < navTop && window.screen.width >= 1024) {
+      nav.style.paddingRight = '0';
+    }
+  }
+
+  window.addEventListener('scroll', stickyNavigation);
 })();
