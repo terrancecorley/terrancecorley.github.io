@@ -263,6 +263,14 @@
   .contact-info {
     font-size: 1.3rem;
   }
+  
+  .social-icon {
+    transition: transform 0.4s ease-out;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.5);
+  }
 
 }
 
