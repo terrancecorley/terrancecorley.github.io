@@ -9,9 +9,9 @@ const main = (() => {
       nav.classList.remove('sticky');
     }
 
-    if (window.scrollY >= navTop && window.screen.width >= 1024) {
+    if (window.scrollY >= navTop && window.innerWidth >= 1024) {
       nav.style.paddingRight = '150px';
-    } else if (window.scrollY < navTop && window.screen.width >= 1024) {
+    } else if (window.scrollY < navTop && window.innerWidth >= 1024) {
       nav.style.paddingRight = '0';
     }
   }
