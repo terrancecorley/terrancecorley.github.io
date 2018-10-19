@@ -2,16 +2,20 @@ const main = (() => {
 
   window.onload = function () {
     // localStorage.clear();
-    // console.log(this.localStorage);
-    const logo = document.querySelector('.logo');
+
+    const logo = document.querySelector('#logo');
     if (!('hasCodeRunBefore' in localStorage)) {
-      console.log('the first load func ran', this.localStorage);
-      logo.classList.add('on-load-animation__swing-in');
+      console.log('false ran');
+      logo.classList.add('on-load-animation__swing-in', 'on-load-animation__offset');
       localStorage.setItem('hasCodeRunBefore', true);
-    } else if ('hasCodeRunBefore' in localStorage) {
-      console.log('the has ran func ran', this.localStorage);
+    } 
+    
+    /* else if ('hasCodeRunBefore' in localStorage) {
+      console.log('true ran');
       logo.classList.remove('on-load-animation__swing-in');
-    }
+    } */
+
+    console.log(this.localStorage);
   };
 
   const nav = document.querySelector('#site-nav');
