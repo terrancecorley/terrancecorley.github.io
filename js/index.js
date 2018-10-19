@@ -1,4 +1,15 @@
 const main = (() => {
+
+  window.onload = function () {
+    const logo = document.querySelector('#logo');
+    if (!('hasCodeRunBefore' in sessionStorage)) {
+      logo.classList.add('on-load-animation__swing-in');
+      sessionStorage.setItem('hasCodeRunBefore', true);
+    } else if ('hasCodeRunBefore' in sessionStorage) {
+      logo.classList.add('logo--position-reset');
+    }
+  };
+
   const nav = document.querySelector('#site-nav');
   const navTop = nav.offsetTop;
 
