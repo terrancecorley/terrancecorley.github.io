@@ -1,17 +1,17 @@
 const main = (() => {
 
   window.onload = function () {
-    // this.localStorage.clear();
+    // this.sessionStorage.clear();
 
     const logo = document.querySelector('#logo');
-    if (!('hasCodeRunBefore' in localStorage)) {
+    if (!('hasCodeRunBefore' in sessionStorage)) {
       logo.classList.add('on-load-animation__swing-in');
-      localStorage.setItem('hasCodeRunBefore', true);
-    } else if ('hasCodeRunBefore' in localStorage) {
+      sessionStorage.setItem('hasCodeRunBefore', true);
+    } else if ('hasCodeRunBefore' in sessionStorage) {
       logo.classList.add('logo--position-reset');
     }
 
-    console.log(this.localStorage);
+    console.log(this.sessionStorage);
   };
 
   const nav = document.querySelector('#site-nav');
