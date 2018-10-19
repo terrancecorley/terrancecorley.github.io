@@ -1,4 +1,19 @@
 const main = (() => {
+
+  window.onload = function () {
+    // localStorage.clear();
+    // console.log(this.localStorage);
+    const logo = document.querySelector('.logo');
+    if (!('hasCodeRunBefore' in localStorage)) {
+      console.log('the first load func ran', this.localStorage);
+      logo.classList.add('on-load-animation__swing-in');
+      localStorage.setItem('hasCodeRunBefore', true);
+    } else if ('hasCodeRunBefore' in localStorage) {
+      console.log('the has ran func ran', this.localStorage);
+      logo.classList.remove('on-load-animation__swing-in');
+    }
+  };
+
   const nav = document.querySelector('#site-nav');
   const navTop = nav.offsetTop;
 
