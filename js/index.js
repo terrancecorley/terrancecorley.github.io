@@ -1,19 +1,15 @@
 const main = (() => {
 
   window.onload = function () {
-    // localStorage.clear();
+    // this.localStorage.clear();
 
     const logo = document.querySelector('#logo');
     if (!('hasCodeRunBefore' in localStorage)) {
-      console.log('false ran');
-      logo.classList.add('on-load-animation__swing-in', 'on-load-animation__offset');
+      logo.classList.add('on-load-animation__swing-in');
       localStorage.setItem('hasCodeRunBefore', true);
-    } 
-    
-    /* else if ('hasCodeRunBefore' in localStorage) {
-      console.log('true ran');
-      logo.classList.remove('on-load-animation__swing-in');
-    } */
+    } else if ('hasCodeRunBefore' in localStorage) {
+      logo.classList.add('logo--position-reset');
+    }
 
     console.log(this.localStorage);
   };
