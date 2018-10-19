@@ -1,8 +1,6 @@
 const main = (() => {
 
   window.onload = function () {
-    // this.sessionStorage.clear();
-
     const logo = document.querySelector('#logo');
     if (!('hasCodeRunBefore' in sessionStorage)) {
       logo.classList.add('on-load-animation__swing-in');
@@ -10,8 +8,6 @@ const main = (() => {
     } else if ('hasCodeRunBefore' in sessionStorage) {
       logo.classList.add('logo--position-reset');
     }
-
-    console.log(this.sessionStorage);
   };
 
   const nav = document.querySelector('#site-nav');

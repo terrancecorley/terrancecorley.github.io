@@ -54,6 +54,7 @@ img {
   z-index: 100;
 }
 
+/* Main Content Animations */
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -67,6 +68,7 @@ main {
   animation: fade-in 0.3s ease-in-out forwards;
 }
 
+/* Site Logo Animations */
 .logo {
   transform: translateX(-600px) skew(50deg); 
 }
@@ -83,6 +85,7 @@ main {
 
 .logo--position-reset {
   transform: translateX(0) skew(0);
+  animation: fade-in 0.2s ease-out forwards;
 }
 
 
