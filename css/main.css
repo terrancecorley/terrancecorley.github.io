@@ -378,9 +378,9 @@ h3 {
 /* PAGE: PORTFOLIO */
 .gallery > li {
   background-color: #f5f5f5;
-  /* box-shadow: 0 0 0.6em 0 #2fa7bb; */
-  box-shadow: 0 12px 25px #555;
-  border-radius: 2px;
+  box-shadow: 0 10px 40px #555;
+  border: 2px solid #2fa7bb;
+  border-radius: 4px;
 }
 
 .project-img {
