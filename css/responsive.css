@@ -232,8 +232,12 @@
   PAGE: PORTFOLIO
   ***********************************/
 
+  .portfolio-container {
+    max-width: 88vw;
+  }
+
   .project-info {
-    padding: 1.25em 8%;
+    padding: 1.25em 5%;
   }
 
 
@@ -274,6 +278,33 @@
 
 }
 
+@media (min-width: 78em) {
+  /* testing */
+  /* body {
+    background-color: indianred;
+  } */
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+
+  .project {
+    display: flex;
+  }
+
+  .project-img-wrapper {
+    flex-basis: 42%;
+    align-self: center;
+    margin-left: auto;
+  }
+
+  .project-info {
+    flex-basis: 53%;
+  }
+
+
+}
+
 @media (min-width: 97em) {
   /* testing */
   /* body {
@@ -300,17 +331,21 @@
   /***********************************
   PAGE: PORTFOLIO
   ***********************************/
+
+  .portfolio-container {
+    max-width: 92vw;
+  }
   
   .gallery-section {
     font-size: 1.3rem;
   }
 
   .project {
-    max-width: 68%;
+    max-width: 82%;
   }
 
   .project-info {
-    padding: 1.4em 10%;
+    padding: 1.4em 5%;
   }
 
   /***********************************
