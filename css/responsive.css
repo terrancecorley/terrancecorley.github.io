@@ -1,5 +1,8 @@
-@media (min-width: 30em) {
 
+@media (min-width: 30em) {
+    * {
+        outline: 2px solid green;
+    }
   /* testing */
   /* body {
     background-color: green;
