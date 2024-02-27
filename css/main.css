@@ -52,7 +52,7 @@ HEADING
 
 header {
     font-size: 1.2rem;
-    margin: 1.5em 0 2.5em;
+    margin: 1.5em 0 5em;
 }
 
 h1 {
@@ -63,11 +63,12 @@ h1 {
 
 h2 {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400;
 }
 
 header h3 {
+    font-size: 0.9em;
     margin: 0.8em 0;
 }
 
@@ -75,6 +76,40 @@ header h3 {
 MAIN CONTENT GENERAL
 ***********************************/
 
+main {
+    font-size: 1rem;
+}
+
 main h3 {
+    font-size: 1.1em;
     font-weight: 600;
+}
+
+.bio-container {
+    margin-bottom: 5em;
+}
+
+.work-experience-container h4 {
+    margin: 0;
+}
+
+.work-experience-container p {
+    margin: 0.5em 0;
+}
+
+.work-experience-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-experience-container li {
+    background-color: rgba(45, 212, 190, 0.1);
+    border-radius: 20px;
+    color: rgb(114, 199, 189);
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
 }
