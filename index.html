@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Terrance is a web developer that takes his passion for clean, efficient code to turn beautiful designs into engaging, user-friendly web experiences. Available for hire now.">
-    <title>Portfolio | Terrance Corley – Web Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:800|Open+Sans:400,400i|Pacifico" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css"> -->
-    <link rel="stylesheet" href="css/min.css">
+        content="Terrance is a senior software engineer that takes his passion for clean, performant code, to turn beautiful designs into engaging, user-friendly web experiences.">
+    <title>Portfolio | Terrance Corley – Senior Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Inter:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/min.css"> -->
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -23,137 +26,128 @@
 </head>
 
 <body>
-    <div class="site-container portfolio-container">
+    <!-- Site Heading -->
+    <header>
+        <div>
+            <h1>Terrance Corley</h1>
+            <h2>Senior Software Engineer at StepStone Group</h2>
+            <h3>I build modern, digital products and experiences for the web.</h3>
+        </div>
+        <!-- todo: add nav that is hidden on mobile -->
+        <!-- todo: uncomment and do below -->
+        <!-- <div>
+            todo: add social media links
+        </div> -->
+    </header>
+
+    <!-- Main Content -->
+    <div>
         <main>
-            <h1>Portfolio overhaul in progress. Revision will release on 3/11/2024.</h1>
-            <!-- Portfolio Gallery
-            <section class="gallery-section">
-                <ul class="gallery">
-                    <li class="project">
-                        <div class="project-img-wrapper">
-                            <img class="project-img" src="img/touche.png" alt="Screenshot of website.">
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Touché</h3>
-                            <ul class="project-tech-stack">
-                                <li>JavaScript
-                                    <span>&sol;</span>
-                                </li>
-                                <li>CSS3
-                                    <span>&sol;</span>
-                                </li>
-                                <li>HTML5</li>
-                            </ul>
-                            <p class="project-description">Touché is a mock website I recreated from the ground up with
-                                the intent to demo to prospective
-                                employers. It's a restaurant themed website and places an emphasis on well defined lines
-                                and vibrant images.</p>
-                            <p class="project-repo">Click
-                                <a href="https://github.com/terrancecorley/touche" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view the project repo.</p>
-                            <p class="project-link">Click
-                                <a href="https://terrancecorley.github.io/touche/" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view the live site.</p>
-                        </div>
-                    </li>
+            <section class="bio-container">
+                <h3>About Me: From Legos to Logic Gates</h3>
+                <p>
+                    Confession time, I wasn't one of those kids born with a keyboard in their crib. But tinkering with Legos sparked a love
+                    for building things, and that eventually translated into building digital experiences and products using code. Life took me on a couple of detours career wise: FedEx worker, Phlebotomy Instructor, Laboratory Manager. But I eventually found myself where I believe I was meant to do my best work, building software and leading teams.
+                </p>
+                <p>
+                    Fast forward to today, and I'm a Senior Software Engineer diving headfirst into the exciting world of all things web development. Whether it's crafting user-friendly interfaces, wrangling
+                    complex algorithms, or building robust back-end systems, I find joy in the challenge of solving problems with code. I manage the above with also being a tech lead for a team of 5. My
+                    passion lies in using my skills to provide genuine value to people.
+                </p>
+                <p>
+                    But life isn't all about ones and zeros! When I step away from the screen, you'll find me crafting a new recipe, chatting with town locals at the farmer's market, or catching up on my latest book of interest. I also love the hunt of finding a new park or green space, if you have any recommendations in the Southern California area, I'm all ears!
+                </p>
+            </section>
 
-                    <li class="project">
-                        <div class="project-img-wrapper">
-                            <img class="project-img" src="img/destinations.png" alt="Screenshot of website.">
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Destinations</h3>
-                            <ul class="project-tech-stack">
-                                <li>HTML5
-                                    <span>&sol;</span>
-                                </li>
-                                <li>CSS3</li>
-                            </ul>
-                            <p class="project-description">Destinations is a personal travel wishlist I recreated that
-                                relies on a beautiful mixture of
-                                color gradients and a fun three column layout for the gallery grid.</p>
-                            <p class="project-repo">Click
-                                <a href="https://github.com/terrancecorley/destinations" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view this project's GitHub repo.</p>
-                            <p class="project-link">Click
-                                <a href="https://terrancecorley.com/destinations" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view the live site.</p>
-                        </div>
-                    </li>
+            <section>
+                <h3>Experience</h3>
 
-                    <li class="project">
-                        <div class="project-img-wrapper">
-                            <img class="project-img" src="img/cafe.png" alt="Screenshot of website.">
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Café Imaginare</h3>
-                            <ul class="project-tech-stack">
-                                <li>HTML5
-                                    <span>&sol;</span>
-                                </li>
-                                <li>Design
-                                    <span>&sol;</span>
-                                </li>
-                                <li>CSS3</li>
-                            </ul>
-                            <p class="project-description">Café Imaginare is a project I designed and created that
-                                targets small business owners. It provides
-                                a warm, intimate, and professional presentation.</p>
-                            <p class="project-repo">Click
-                                <a href="https://github.com/terrancecorley/cafe-imaginare" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view this project's GitHub repo.</p>
-                            <p class="project-link">Click
-                                <a href="https://terrancecorley.com/cafe-imaginare/" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view the live site.</p>
-                        </div>
-                    </li>
+                <div class="work-experience-container">
+                    <span>2024 - Present</span>
+                    <!-- todo: link to company site -->
+                    <h4>
+                        <a href="https://www.stepstonegroup.com/" target="_blank" rel="noopener noreferrer">Senior Software Engineer · StepStone Group</a>
+                    </h4>
+                    <p>As a tech lead for a team of 5, I spearhead the planning and development of critical features and modernizations. This
+                    involves collaborating closely with project managers, onshore and offshore teams, UI/UX teams, and stakeholders. I ensure projects are delivered on
+                    time by removing any roadblocks developers face, leveraging my technical expertise. Additionally, I mentor software
+                    engineers, fostering their professional growth within the team.</p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                        <li>HTML & CSS</li>
+                        <li>Material UI</li>
+                        <li>Styled Components</li>
+                        <li>Docker</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
 
-                    <li class="project">
-                        <div class="project-img-wrapper">
-                            <img class="project-img" src="img/theory.png" alt="Screenshot of website.">
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Theory</h3>
-                            <ul class="project-tech-stack">
-                                <li>Bootstrap
-                                    <span>&sol;</span>
-                                </li>
-                                <li>HTML5
-                                    <span>&sol;</span>
-                                </li>
-                                <li>CSS3</li>
-                            </ul>
-                            <p class="project-description">Theory is a recreated website I built using Bootstrap. It's
-                                captivating banner, modern typography
-                                and design present a gentle presentation that is easy on the eyes yet encapsulating for
-                                the
-                                user.
-                            </p>
-                            <p class="project-repo">Click
-                                <a href="https://github.com/terrancecorley/theory" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view this project's GitHub repo.</p>
-                            <p class="project-link">Click
-                                <a href="http://terrancecorley.github.io/theory" target="_blank"
-                                    rel="noreferrer noopener">here</a> to view the live site.</p>
-                        </div>
-                    </li>
-                </ul>
-            </section> -->
+                <div class="work-experience-container">
+                    <span>2021 - 2024</span>
+                    <!-- todo: link to company site -->
+                    <h4>
+                        <a href="https://www.stepstonegroup.com/" target="_blank" rel="noopener noreferrer">Software Engineer II · StepStone Group</a>
+                    </h4>
+                    <p>I led the design and development of a comprehensive React UI library that serves as the foundation for all our
+                    department's React applications. I built the core components myself and managed the work of 9 engineers who contributed
+                    to the library. This resulted in a 10-fold increase in developer productivity and established a single source of truth
+                    for UI components, significantly reducing bugs and unintended consequences.</p>
+                    
+                    <p>In a separate three-month stint as interim team lead for 11 engineers, I ensured smooth operations by handling hotfixes,
+                    sprint deployments, and related meetings and rituals. I also conducted code reviews and provided direct support to developers and project managers.</p>
+                    
+                    <p>Furthermore, I actively participated in the company's hiring process, contributing to the recruitment of several
+                    engineers and UI/UX professionals.</p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                        <li>HTML & CSS</li>
+                        <li>Material UI</li>
+                        <li>Styled Components</li>
+                        <li>Docker</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="work-experience-container">
+                    <span>2018 - 2021</span>
+                    <!-- todo: link to company site -->
+                    <h4>
+                        <a href="https://www.stepstonegroup.com/" target="_blank" rel="noopener noreferrer">Software Engineer I · StepStone Group</a>
+                    </h4>
+                    <p>I led the front-end modernization of a large legacy application, transitioning it from PHP/JavaScript to React
+                    and Laravel frameworks. This not only significantly boosted developer productivity but also yielded a vastly improved
+                    UI/UX experience for our users.</p>
+                    <p>Beyond technical leadership, I championed knowledge sharing within the engineering
+                    department by establishing its internal documentation space. Furthermore, I actively fostered a culture of learning and
+                    collaboration by initiating several bi-weekly events, including LeetCode challenges, code reviews, code jeopardy, and
+                    educational sessions.</p>
+                    <p>Additionally, I served as a mentor for four engineers during this period, contributing to their
+                    professional development.</p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                        <li>HTML & CSS</li>
+                        <li>Material UI</li>
+                        <li>Styled Components</li>
+                        <li>Docker</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </section>
         </main>
     </div>
 
     <!-- Site Footer -->
-    <footer class="site-footer">
-        <a href="mailto:terrancecorley@outlook.com">
-            <img src="img/email-wrap.svg" alt="Email logo." class="social-icon">
-        </a>
-        <a href="http://github.com/terrancecorley" target="_blank" rel="noreferrer noopener">
-            <img src="img/github-wrap.svg" alt="GitHub logo." class="social-icon">
-        </a>
-        <a href="http://linkedin.com/in/terrancecorley" target="_blank" rel="noreferrer noopener">
-            <img src="img/linkedin-wrap.svg" alt="LinkedIn logo." class="social-icon">
-        </a>
-        <p>&copy; 2024 Terrance Corley.</p>
+    <footer>
+        <p>Built in <a href="">Visual Studio Code</a> by yours truly. Built with good ol' <a href="">HTML</a>, <a href="">JavaScript</a>, and <a href="">CSS</a>. Libraries and frameworks are great, but not worth the bundle size for my simple portfolio site. Hosted on <a href="">GitHub</a> and deployed with <a href="">GitHub Pages</a>.</p>
     </footer>
 
     <!-- <script src="js/index.js"></script> -->
