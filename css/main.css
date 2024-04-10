@@ -41,6 +41,21 @@ a:hover {
     color: #b5d0db;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.icon {
+    width: 36px;
+    transition: transform 0.2s ease-out;
+}
+
+.icon:hover,
+.icon:focus {
+    transform: scale(1.2);
+}
+
 /***********************************
 HEADING
 ***********************************/
@@ -65,6 +80,15 @@ h2 {
 header h3 {
     font-size: 0.9em;
     margin: 0.8em 0;
+}
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons li {
+    margin-right: 5px;
 }
 
 /***********************************
