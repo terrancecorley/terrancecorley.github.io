@@ -57,6 +57,23 @@ ul {
     transform: scale(1.2);
 }
 
+.icon-open-link::after {
+    content: url('../img/open-link.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transition: filter 0.3s ease-out, transform 0.2s ease-in-out;
+    filter: brightness(0) saturate(100%) invert(58%) sepia(7%) saturate(985%) hue-rotate(353deg) brightness(98%) contrast(90%);
+    transform: translate(0, 7px);
+}
+
+.icon-open-link:hover::after,
+.icon-open-link:focus::after {
+    filter: brightness(0) saturate(100%) invert(90%) sepia(12%) saturate(447%) hue-rotate(158deg) brightness(90%) contrast(90%);
+    transform: translate(5px, 0);
+}
+
 /***********************************
 HEADING
 ***********************************/
@@ -150,4 +167,8 @@ footer {
     font-weight: 300;
     font-size: 0.9rem;
     margin-top: 3em;
+}
+
+.icon-attribution {
+    font-size: 0.8rem;
 }
