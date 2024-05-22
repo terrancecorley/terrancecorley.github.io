@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    /***********************************
+    MAIN CONTENT GENERAL
+    ***********************************/
+    .work-experience-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+}
