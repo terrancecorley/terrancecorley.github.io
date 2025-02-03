@@ -74,9 +74,16 @@ ul {
     transform: translate(5px, 0);
 }
 
+.available-to-hire {
+    color: #90A959;
+    font-weight: 600;
+}
+
+
 /***********************************
 HEADING
 ***********************************/
+
 
 header {
     font-size: 1.2rem;
