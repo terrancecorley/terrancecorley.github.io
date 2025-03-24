@@ -1,0 +1,28 @@
+{
+  "subject": "acct:me@terrancecorley.com",
+  "aliases": [
+    "https://mastodon.social/@terrancecorley",
+    "https://mastodon.social/users/terrancecorley"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.social/@terrancecorley"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/users/terrancecorley"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "type": "image/png",
+      "href": "https://files.mastodon.social/accounts/avatars/114/215/103/082/635/056/original/f0cff3f2541dc99f.png"
+    }
+  ]
+}
